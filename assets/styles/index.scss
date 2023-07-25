@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/assets/images/bg.jpg) no-repeat center fixed;
+    
+}
+
+header {
+    h1 {
+        padding: 100px 300px 0 300px;
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+    }
+    p {
+        text-align: center;
+        color: white;
+    }
+    button {
+        margin: 2% 0 5% 47%;
+        text-align: center;
+        rotate: 90deg;
+        color: white;
+        background: transparent;
+        font-size: 3.5rem;
+        border: 3px solid white;
+        border-radius: 40px;
+    }
+}
+
+section {
+    padding: 0 15% 0 15%;
+    nav {
+        background: rgba(255, 255, 255, 0.253);
+        display: flex;
+        justify-content: space-between;
+        ul {
+            display: flex;
+            justify-content: start;
+        }
+        li {
+            border: 2px solid white;
+            list-style: none;
+        }
+    }
+
+    .presentation {
+        background: white;
+        h4 {
+            text-align: center;
+            padding: 5% 0 0 0;
+        }
+        h2 {
+            text-align: center;
+            font-size: 3rem;
+        }
+        p {
+            margin: 0 15% 5% 15%;
+            text-align: center;
+            color: gray;
+        }
+        img {
+            
+            margin: 0 10% 0 10%;
+            width: 80%;
+        }
+    }
+    
+    button {
+        margin: 5% 0 10% 38%;
+        padding: 2% 4% 2% 4%;
+        background: transparent;
+        font-size: 1rem;
+        border: 3px solid black;
+    }
+    .infos {
+        background: white;
+        display: flex;
+        .infos-left{
+            border: 2px solid rgb(209, 202, 202);
+            width: 50%;
+            h4 {
+                color: gray;
+                text-align: center;
+            }
+            h3 {
+                margin: 0 15% 5% 15%;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            p {
+                color: gray;
+                margin: 30px;
+                text-align: start;
+            }
+            img {
+                margin: 0 8% 0 8%;
+                height: 30%;
+            }
+        }
+        .infos-right {
+            border: 2px solid rgb(209, 202, 202);
+            width: 50%;
+            h4 {
+                color: gray;
+                text-align: center;
+            }
+            h3 {
+                margin: 0 15% 5% 15%;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            p {
+                color: gray;
+                margin: 30px;
+                text-align: start;
+            }
+            img {
+                margin: 0 8% 0 8%;
+                height: 30%;
+            }
+        }
+    }
+}
+
+footer {
+    margin: 2% 15% 0 15%;
+    background: rgb(243, 237, 237);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-area: 
+    "formulaire adress"
+    "formulaire phone"
+    "formulaire  mail"
+    "formulaire social";
+
+    .formulaire {
+        
+    }
+    .final {
+        
+    }
+    .adress {
+        display: flex;
+        h4 {
+            margin: 10% 0 0 0;
+        }
+        p {
+            margin: 10%;
+        }
+    }
+    .phone {
+        display: flex;
+        h4 {
+            margin: 10% 0 0 0;
+        }
+        p {
+            margin: 10%;
+        }
+    }
+    .mail {
+        display: flex;
+        h4 {
+            margin: 10% 0 0 0;
+        }
+        p {
+            margin: 10%;
+        }
+    }
+    .social {
+        display: flex;
+        h4 {
+            margin: 10% 0 0 0;
+        }
+        p {
+            margin: 10%;
+        }
+    }
+}

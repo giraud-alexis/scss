@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/assets/images/bg.jpg) no-repeat center fixed;
+}
+
+header h1 {
+  padding: 100px 300px 0 300px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+header p {
+  text-align: center;
+  color: white;
+}
+header button {
+  margin: 2% 0 5% 47%;
+  text-align: center;
+  rotate: 90deg;
+  color: white;
+  background: transparent;
+  font-size: 3.5rem;
+  border: 3px solid white;
+  border-radius: 40px;
+}
+
+section {
+  padding: 0 15% 0 15%;
+}
+section nav {
+  background: rgba(255, 255, 255, 0.253);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+section nav li {
+  border: 2px solid white;
+  list-style: none;
+}
+section .presentation {
+  background: white;
+}
+section .presentation h4 {
+  text-align: center;
+  padding: 5% 0 0 0;
+}
+section .presentation h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+section .presentation p {
+  margin: 0 15% 5% 15%;
+  text-align: center;
+  color: gray;
+}
+section .presentation img {
+  margin: 0 10% 0 10%;
+  width: 80%;
+}
+section button {
+  margin: 5% 0 10% 38%;
+  padding: 2% 4% 2% 4%;
+  background: transparent;
+  font-size: 1rem;
+  border: 3px solid black;
+}
+section .infos {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .infos .infos-left {
+  border: 2px solid rgb(209, 202, 202);
+  width: 50%;
+}
+section .infos .infos-left h4 {
+  color: gray;
+  text-align: center;
+}
+section .infos .infos-left h3 {
+  margin: 0 15% 5% 15%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+section .infos .infos-left p {
+  color: gray;
+  margin: 30px;
+  text-align: start;
+}
+section .infos .infos-left img {
+  margin: 0 8% 0 8%;
+  height: 30%;
+}
+section .infos .infos-right {
+  border: 2px solid rgb(209, 202, 202);
+  width: 50%;
+}
+section .infos .infos-right h4 {
+  color: gray;
+  text-align: center;
+}
+section .infos .infos-right h3 {
+  margin: 0 15% 5% 15%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+section .infos .infos-right p {
+  color: gray;
+  margin: 30px;
+  text-align: start;
+}
+section .infos .infos-right img {
+  margin: 0 8% 0 8%;
+  height: 30%;
+}
+
+footer {
+  margin: 2% 15% 0 15%;
+  background: rgb(243, 237, 237);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-area: "formulaire adress" "formulaire phone" "formulaire  mail" "formulaire social";
+}
+footer .adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .adress h4 {
+  margin: 10% 0 0 0;
+}
+footer .adress p {
+  margin: 10%;
+}
+footer .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .phone h4 {
+  margin: 10% 0 0 0;
+}
+footer .phone p {
+  margin: 10%;
+}
+footer .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .mail h4 {
+  margin: 10% 0 0 0;
+}
+footer .mail p {
+  margin: 10%;
+}
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .social h4 {
+  margin: 10% 0 0 0;
+}
+footer .social p {
+  margin: 10%;
+}/*# sourceMappingURL=index.css.map */
