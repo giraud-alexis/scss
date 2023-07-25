@@ -35,16 +35,35 @@ section {
         display: flex;
         justify-content: space-between;
         ul {
+            margin: 5px 0 0 -30px;
             display: flex;
             justify-content: start;
+            align-items: center;
+        }
+        .menu {
+            margin: 0px 0 -1px 0px;
+            padding: 0 0 0 0;
+        border: 3px solid white;
+        li {
+            margin: 0 4px 0 0;
+            font-size: 1.2rem;
+        }
         }
         li {
-            border: 2px solid white;
+            margin: 10px 0 0 10px;
             list-style: none;
+            text-align: center;
+        }
+        img {
+            margin: 0 10px 0 0;
+            border: 3px solid rgb(7, 7, 7);
+            border-radius: 100%;
+            height: 30px;
         }
     }
 
     .presentation {
+        margin: -20px 0 0 0;
         background: white;
         h4 {
             text-align: center;
@@ -76,6 +95,8 @@ section {
     .infos {
         background: white;
         display: flex;
+        justify-content: center;
+        align-items: center;
         .infos-left{
             border: 2px solid rgb(209, 202, 202);
             width: 50%;
@@ -96,6 +117,7 @@ section {
             img {
                 margin: 0 8% 0 8%;
                 height: 30%;
+                width: 85%;
             }
         }
         .infos-right {
@@ -118,14 +140,17 @@ section {
             img {
                 margin: 0 8% 0 8%;
                 height: 30%;
+                width: 85%;
             }
         }
+        
+        
     }
 }
 
 footer {
     margin: 2% 15% 0 15%;
-    background: rgb(243, 237, 237);
+    background: rgb(241, 241, 241);
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
@@ -136,45 +161,86 @@ footer {
     "formulaire social";
 
     .formulaire {
-        
-    }
-    .final {
-        
+        height: 413px;
+        border: 2px solid rgb(219, 219, 219);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        #message {
+            border: 2px solid rgb(170, 159, 159);
+            height: 150px;
+            width: 300px;
+            resize: none;
+        }
+        h4 {
+            color: rgb(122, 115, 115);
+            font-size: 0.7rem;
+        }
+        input {
+            border: 2px solid rgb(170, 159, 159);
+            margin: -10px 0 0 0;
+            height: 30px;
+            width: 300px;
+        }
+        button {
+            margin: 10px 0 0 0;
+            border: 2px solid rgb(170, 159, 159);
+            height: 30px;
+            font-size: 1.5rem;
+            color: rgb(122, 115, 115);
+        }
     }
     .adress {
+        color: rgb(122, 115, 115);
+        border: 2px solid rgb(216, 202, 202);
         display: flex;
         h4 {
-            margin: 10% 0 0 0;
+            font-size: 0.7rem;
+            margin: 11% 0 0 20px;
         }
         p {
             margin: 10%;
         }
     }
     .phone {
+        color: rgb(122, 115, 115);
+        border: 2px solid rgb(216, 202, 202);
         display: flex;
         h4 {
-            margin: 10% 0 0 0;
+            font-size: 0.7rem;
+            margin: 11% 0 0 20px;
         }
         p {
             margin: 10%;
         }
     }
     .mail {
+        color: rgb(122, 115, 115);
+        border: 2px solid rgb(216, 202, 202);
         display: flex;
         h4 {
-            margin: 10% 0 0 0;
+            margin: 11% 0 0 20px;
+            font-size: 0.7rem;
         }
         p {
             margin: 10%;
         }
     }
     .social {
+        color: rgb(122, 115, 115);
+        border: 2px solid rgb(216, 202, 202);
         display: flex;
+        height: 100px;
         h4 {
-            margin: 10% 0 0 0;
+            font-size: 0.7rem;
+            margin: 40px 50px 0 20px;
         }
-        p {
-            margin: 10%;
+        img {
+            margin: 30px 10px 0 0;
+            border: 3px solid gray;
+            border-radius: 100%;
+            height: 25px;
         }
     }
 }

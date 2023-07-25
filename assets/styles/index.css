@@ -38,18 +38,39 @@ section nav {
           justify-content: space-between;
 }
 section nav ul {
+  margin: 5px 0 0 -30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section nav .menu {
+  margin: 0px 0 -1px 0px;
+  padding: 0 0 0 0;
+  border: 3px solid white;
+}
+section nav .menu li {
+  margin: 0 4px 0 0;
+  font-size: 1.2rem;
 }
 section nav li {
-  border: 2px solid white;
+  margin: 10px 0 0 10px;
   list-style: none;
+  text-align: center;
+}
+section nav img {
+  margin: 0 10px 0 0;
+  border: 3px solid rgb(7, 7, 7);
+  border-radius: 100%;
+  height: 30px;
 }
 section .presentation {
+  margin: -20px 0 0 0;
   background: white;
 }
 section .presentation h4 {
@@ -81,6 +102,12 @@ section .infos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 section .infos .infos-left {
   border: 2px solid rgb(209, 202, 202);
@@ -103,6 +130,7 @@ section .infos .infos-left p {
 section .infos .infos-left img {
   margin: 0 8% 0 8%;
   height: 30%;
+  width: 85%;
 }
 section .infos .infos-right {
   border: 2px solid rgb(209, 202, 202);
@@ -125,57 +153,114 @@ section .infos .infos-right p {
 section .infos .infos-right img {
   margin: 0 8% 0 8%;
   height: 30%;
+  width: 85%;
 }
 
 footer {
   margin: 2% 15% 0 15%;
-  background: rgb(243, 237, 237);
+  background: rgb(241, 241, 241);
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 25% 25% 25% 25%;
   grid-area: "formulaire adress" "formulaire phone" "formulaire  mail" "formulaire social";
 }
+footer .formulaire {
+  height: 413px;
+  border: 2px solid rgb(219, 219, 219);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .formulaire #message {
+  border: 2px solid rgb(170, 159, 159);
+  height: 150px;
+  width: 300px;
+  resize: none;
+}
+footer .formulaire h4 {
+  color: rgb(122, 115, 115);
+  font-size: 0.7rem;
+}
+footer .formulaire input {
+  border: 2px solid rgb(170, 159, 159);
+  margin: -10px 0 0 0;
+  height: 30px;
+  width: 300px;
+}
+footer .formulaire button {
+  margin: 10px 0 0 0;
+  border: 2px solid rgb(170, 159, 159);
+  height: 30px;
+  font-size: 1.5rem;
+  color: rgb(122, 115, 115);
+}
 footer .adress {
+  color: rgb(122, 115, 115);
+  border: 2px solid rgb(216, 202, 202);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 footer .adress h4 {
-  margin: 10% 0 0 0;
+  font-size: 0.7rem;
+  margin: 11% 0 0 20px;
 }
 footer .adress p {
   margin: 10%;
 }
 footer .phone {
+  color: rgb(122, 115, 115);
+  border: 2px solid rgb(216, 202, 202);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 footer .phone h4 {
-  margin: 10% 0 0 0;
+  font-size: 0.7rem;
+  margin: 11% 0 0 20px;
 }
 footer .phone p {
   margin: 10%;
 }
 footer .mail {
+  color: rgb(122, 115, 115);
+  border: 2px solid rgb(216, 202, 202);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 footer .mail h4 {
-  margin: 10% 0 0 0;
+  margin: 11% 0 0 20px;
+  font-size: 0.7rem;
 }
 footer .mail p {
   margin: 10%;
 }
 footer .social {
+  color: rgb(122, 115, 115);
+  border: 2px solid rgb(216, 202, 202);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100px;
 }
 footer .social h4 {
-  margin: 10% 0 0 0;
+  font-size: 0.7rem;
+  margin: 40px 50px 0 20px;
 }
-footer .social p {
-  margin: 10%;
+footer .social img {
+  margin: 30px 10px 0 0;
+  border: 3px solid gray;
+  border-radius: 100%;
+  height: 25px;
 }/*# sourceMappingURL=index.css.map */
